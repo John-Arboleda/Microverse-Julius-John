@@ -12,11 +12,27 @@ h1 {
     margin-bottom: 0;
 }
 
-#subtitle{
+#subtitle {
     margin-top: 0;
+}
+
+#img-div {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(31, 31, 112);
 }
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    height: 80%;
+}
+
+#img-caption {
+    /* margin: 20px auto; */
+    line-height: 4;
 }
