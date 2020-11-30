@@ -36,3 +36,9 @@ img {
     /* margin: 20px auto; */
     line-height: 4;
 }
+
+ul {
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+}
