@@ -27,9 +27,10 @@ h1 {
 
 img {
     display: block;
-    width: 100%;
+    width: 80%;
+    max-width: 100%;
     margin: 0 auto;
-    height: 80%;
+    height: auto;
 }
 
 #img-caption {
@@ -37,8 +38,28 @@ img {
     line-height: 4;
 }
 
+h2 {
+    font-size: 2em;
+}
+
 ul {
     text-align: justify;
     max-width: 800px;
     margin: auto;
+    font-size: 1.5em;
+}
+
+li {
+    margin: 20px auto;
+}
+
+@media (max-width: 500px) {
+    ul {
+        font-family: 1em;
+    }
+}
+
+#p-link {
+    font-size: 1.5em;
+    font-weight: 600;
 }
